@@ -1,9 +1,10 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon server/index.js",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -14,5 +15,8 @@
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
