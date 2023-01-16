@@ -1,4 +1,9 @@
 module.exports = {
+  
+  
+  config:{
+    type: "experimental-background",
+  }
 
   config:{
     type: "experimental-background",
