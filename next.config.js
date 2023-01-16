@@ -1,4 +1,9 @@
 module.exports = {
+  
+  
+  config:{
+    type: "experimental-background",
+  }
 
   // env: {
   //   MONGO_DB: 'mongodb+srv://mops:Lpsemmth123@cluster0.ncbt4tc.mongodb.net/?retryWrites=true&w=majority',
